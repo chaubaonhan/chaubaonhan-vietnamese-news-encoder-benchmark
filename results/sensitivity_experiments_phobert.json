@@ -1,0 +1,78 @@
+{
+  "G2_head_truncation_batch256": {
+    "n": 94670,
+    "accuracy": 0.9475969156015633,
+    "macro_precision": 0.9409238179789646,
+    "macro_recall": 0.9436570787410714,
+    "macro_f1": 0.9422040392686991,
+    "macro_auc": 0.9979362434320569,
+    "train_seconds": 3040.262329339981
+  },
+  "G2_head_truncation_batch512": {
+    "n": 94670,
+    "accuracy": 0.9452624907573677,
+    "macro_precision": 0.9391562827269986,
+    "macro_recall": 0.9403177865644576,
+    "macro_f1": 0.9396255365029255,
+    "macro_auc": 0.9977872179248986
+  },
+  "G2_head_plus_tail_batch512": {
+    "n": 94670,
+    "accuracy": 0.9579486637794444,
+    "macro_precision": 0.9528233914088601,
+    "macro_recall": 0.9557608514919785,
+    "macro_f1": 0.954171091916453,
+    "macro_auc": 0.9985496722079695,
+    "train_seconds": 2267.538661003113
+  },
+  "G3_temporal_trained_2019_2022": {
+    "n_train": 395419,
+    "n_dev": 49480,
+    "train_seconds": 1220.580090522766,
+    "test_2019_2022": {
+      "n": 49421,
+      "accuracy": 0.9397422148479392,
+      "macro_precision": 0.9325829962245743,
+      "macro_recall": 0.9371509805316698,
+      "macro_f1": 0.9347226701640305,
+      "macro_auc": 0.9973552863271852
+    },
+    "test_2023": {
+      "n": 148423,
+      "accuracy": 0.9352121975704574,
+      "macro_precision": 0.924574057159598,
+      "macro_recall": 0.9266445476529739,
+      "macro_f1": 0.9253851541804368,
+      "macro_auc": 0.9966697589726607
+    },
+    "test_2024": {
+      "n": 141965,
+      "accuracy": 0.9307082731659212,
+      "macro_precision": 0.9228749835022715,
+      "macro_recall": 0.920004253758826,
+      "macro_f1": 0.9211156945308894,
+      "macro_auc": 0.9961562535505241
+    },
+    "test_2025": {
+      "n": 144189,
+      "accuracy": 0.9163251010826069,
+      "macro_precision": 0.9080894839095439,
+      "macro_recall": 0.9082178924792597,
+      "macro_f1": 0.90756026003577,
+      "macro_auc": 0.9947226066580394
+    }
+  },
+  "G1_cafebert_reinference": {
+    "seed42": {
+      "correct": 89879,
+      "released_correct": 89885,
+      "macro_f1": 0.9442643680839622
+    },
+    "seed22": {
+      "correct": 89853,
+      "released_correct": 89848,
+      "macro_f1": 0.9442257124665069
+    }
+  },
+  "note": "PhoBERT-base, seed 42, single run per setting on an NVIDIA RTX PRO 6000 (Colab G4); see analysis/step4_gpu.py"
+}

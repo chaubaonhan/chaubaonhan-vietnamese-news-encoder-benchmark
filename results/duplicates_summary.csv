@@ -1,0 +1,10 @@
+query_split,kind,reference_split,n_flagged,pct
+dev,h_exact,train,436,0.4605471638322594
+test,h_exact,train,399,0.421464032956586
+test,h_exact,dev,50,0.05281504172388297
+dev,h_norm,train,436,0.4605471638322594
+test,h_norm,train,399,0.421464032956586
+test,h_norm,dev,50,0.05281504172388297
+dev,near,train,917,0.9686278652160134
+test,near,train,894,0.9443329460230274
+test,near,dev,119,0.12569979930284145

@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+runs/
+revision_data/
+revision_results/
+figures/generated/
+*.npz
+*.pkl
+.ipynb_checkpoints/

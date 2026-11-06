@@ -1,0 +1,6 @@
+Random sample of 200 articles (seed 2026), analysis/step5_tail_teaser.py
+tail = last 60 words, lead = first 60 words of every other article, 8-word shingles, >= 3 shared, duplicates excluded
+tail contains the opening of another article: 50 (25.0%)
+  ... and that article has the SAME category: 43 (86.0% of those)
+share with teaser by source: DanTri 0.228 (n=57), VNExpress 0.099 (n=71), VietNamNet 0.417 (n=72)
+This is a lower bound: teasers of articles that are not in the corpus are not detected.
