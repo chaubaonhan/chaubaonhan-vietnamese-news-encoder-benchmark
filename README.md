@@ -67,7 +67,7 @@ results/                   all numbers reported in the paper and in the response
 (maximum length 256 tokens, AdamW with linear decay after 6 % warm-up, three epochs, BF16, epoch-level
 model selection on development macro-F1); every setting is a command-line argument. The released
 fine-tuned checkpoints, their `trainer_state.json` training logs and the article-level test predictions
-are on Hugging Face: <https://huggingface.co/collections/BaoNhan/plos-one>.
+are on Hugging Face: <https://huggingface.co/collections/BaoNhan/plos-one-6a67a6bec70112e23e5e93e5>.
 
 ## Data
 
